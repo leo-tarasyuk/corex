@@ -1,0 +1,14 @@
+@import "../../../../../styles/";
+
+.cell {
+  border-bottom: 15px solid $backgroundColor;
+  white-space: nowrap;
+  height: 40px;
+  padding: 0px 5px;
+}
+
+.cell-show{
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}

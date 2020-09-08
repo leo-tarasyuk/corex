@@ -1,0 +1,21 @@
+@import "../../../../../styles/index.scss";
+
+.th-head {
+  height: 33px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 33px;
+  color: $colorPoint;
+  border-bottom: 15px solid $backgroundColor;
+  box-sizing: border-box;
+  &:first-child {
+    font-size: 0;
+  }
+}
+.head-show{
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}

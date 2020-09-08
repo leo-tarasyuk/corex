@@ -1,0 +1,22 @@
+@import "../../../../../../../styles/";
+
+.prices {
+  color: $colorPoint;
+  position: relative;
+  .point-rt {
+    width: 2px;
+    height: 2px;
+    background-color: $colorPoint;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .point-rb {
+    width: 2px;
+    height: 2px;
+    background-color: $colorPoint;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+}

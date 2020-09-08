@@ -1,0 +1,26 @@
+@import "../../styles/";
+
+.footer {
+  width: 100%;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $backgroundColor;
+  .footer-icons {
+    width: 168px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .social {
+      list-style: none;
+      width: 30px;
+      height: 30px;
+      background-color: $socialsColor;
+      &:active {
+        background: $socialsColorActive;
+      }
+    }
+  }
+}

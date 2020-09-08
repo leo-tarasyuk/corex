@@ -1,0 +1,58 @@
+@import "../../../styles/";
+
+.sort-buttons {
+  width: 100%;
+  height: 100%;
+  .sort-button {
+    width: 100%;
+    height: 33px;
+    position: relative;
+    background: $socialsColor;
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 30px;
+    color: $colorPointTable;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    &:active {
+      background: $socialsColorActive;
+    }
+    span {
+      padding-left: 10px;
+    }
+    .point-lt {
+      width: 2px;
+      height: 2px;
+      background-color: $colorPoint;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .point-rt {
+      width: 2px;
+      height: 2px;
+      background-color: $colorPoint;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .point-lb {
+      width: 2px;
+      height: 2px;
+      background-color: $colorPoint;
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+    }
+    .point-rb {
+      width: 2px;
+      height: 2px;
+      background-color: $colorPoint;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+}

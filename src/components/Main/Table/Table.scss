@@ -1,0 +1,51 @@
+@import "../../../styles/";
+
+.table-sale {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .table-head {
+    width: 100%;
+    height: 33px;
+    background: $socialsColorActive;
+    .tr-head {
+      width: 100%;
+      height: 33px;
+      position: relative;
+      background: $socialsColorActive;
+      padding: 0px 5px;
+    }
+    .point-lt {
+      width: 2px;
+      height: 2px;
+      background-color: $colorPoint;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+    .point-rt {
+      width: 2px;
+      height: 2px;
+      background-color: $colorPoint;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .point-lb {
+      width: 2px;
+      height: 2px;
+      background-color: $colorPoint;
+      position: absolute;
+      left: 0px;
+      top: 31px;
+    }
+    .point-rb {
+      width: 2px;
+      height: 2px;
+      background-color: $colorPoint;
+      position: absolute;
+      right: 0px;
+      top: 31px;
+    }
+  }
+}

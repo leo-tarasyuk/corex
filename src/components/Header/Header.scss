@@ -1,0 +1,81 @@
+@import "../../styles/";
+
+.header {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  z-index: 1000;
+  .header-fixed {
+    width: 100%;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background: $backgroundColor;
+    .header-logo {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 30px;
+      .logo-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logo {
+          display: flex;
+          align-items: center;
+        }
+        .logo-lang {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 28px;
+          .change-language {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          span {
+            margin-left: 15px;
+            font-family: Exo;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            color: $colorMain;
+          }
+        }
+      }
+      .basket-with-products {
+        position: relative;
+        width: 30px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .basket {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        span {
+          position: absolute;
+          bottom: 20px;
+          right: 0px;
+          display: flex;
+          justify-content: center;
+          width: 10px;
+          height: 17px;
+          background: $backgroundColor;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 20px;
+          color: $colorMain;
+        }
+      }
+    }
+  }
+}
