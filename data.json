@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "name": "USED Antminer S9",
+      "Release": "Mar 2019",
+      "Manufacturer": "Bitmain",
+      "Model": "S9i",
+      "Hash": "10.5-14.5 th/s",
+      "Algorithm": "SHA-256",
+      "Efficiency": "8.00j/H/s",
+      "Profit": "$122.88",
+      "Price": {
+        "minPrice": "$137.00",
+        "maxPrice": "$217.00"
+      }
+    },
+    {
+      "id": "1",
+      "name": "Aorus RTX 2070 8G",
+      "Release": "Mar 2019",
+      "Manufacturer": "Intel",
+      "Model": "S9i",
+      "Hash": "10.5-14.5 th/s",
+      "Algorithm": "SHA-256",
+      "Efficiency": "8.00j/H/s",
+      "Profit": "$122.88",
+      "Price": {
+        "minPrice": "$238.00",
+        "maxPrice": "$421.00"
+      }
+    },
+    {
+      "id": "2",
+      "name": "USED Antminer S9",
+      "Release": "Mar 2019",
+      "Manufacturer": "Bosch",
+      "Model": "S9i",
+      "Hash": "10.5-14.5 th/s",
+      "Algorithm": "SHA-256",
+      "Efficiency": "8.00j/H/s",
+      "Profit": "$0.04",
+      "Price": {
+        "minPrice": "$179.00",
+        "maxPrice": "$201.00"
+      }
+    }
+  ]
+}
