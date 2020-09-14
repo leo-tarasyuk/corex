@@ -12,7 +12,7 @@ class Footer extends Component {
           {social.map((item, index) => {
             return (
               <li className="social" key={`sotial${index}`}>
-                {Socials.sotialIcons(item)}
+                <a href={`https://www.${item}.com/`}>{Socials.sotialIcons(item)}</a>
               </li>
             )
           })}

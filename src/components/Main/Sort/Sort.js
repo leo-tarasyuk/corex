@@ -16,7 +16,7 @@ class Sort extends Component {
 
     return (
       <div className='sort-buttons'>
-        <div className='sort-button' onClick={()=> setChangeSort('Manufacturer')}>
+        <div className='sort-button' onClick={() => setChangeSort('Manufacturer')}>
           <span>By Manufacturer</span>
           <div className='point-lt'></div>
           <div className='point-rt'></div>
@@ -42,10 +42,4 @@ class Sort extends Component {
   }
 }
 
-const mapStateToProps = state => {
-  const { site: { } } = state;
-
-  return {};
-}
-
-export default connect(mapStateToProps, { setChangeSort, setStateButton })(Sort);
+export default connect(() => {}, { setChangeSort, setStateButton })(Sort);
