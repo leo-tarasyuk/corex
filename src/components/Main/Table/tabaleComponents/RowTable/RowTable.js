@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { formatDataRow } from './helper/formatDataRow';
+import { formatDataRow } from './helpers/formatDataRow';
 import CellTable from '../CellTable';
 
 import './RowTable.scss'
