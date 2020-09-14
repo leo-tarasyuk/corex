@@ -42,4 +42,10 @@ class Sort extends Component {
   }
 }
 
-export default connect(() => {}, { setChangeSort, setStateButton })(Sort);
+const mapStateToProps = state => {
+  const { site: { } } = state;
+
+  return {};
+}
+
+export default connect(mapStateToProps, { setChangeSort, setStateButton })(Sort);
