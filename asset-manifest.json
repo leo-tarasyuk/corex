@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/corex/static/css/main.de5944b1.chunk.css",
-    "main.js": "/corex/static/js/main.4e292a25.chunk.js",
-    "main.js.map": "/corex/static/js/main.4e292a25.chunk.js.map",
+    "main.css": "/corex/static/css/main.5a730067.chunk.css",
+    "main.js": "/corex/static/js/main.bc0e65e3.chunk.js",
+    "main.js.map": "/corex/static/js/main.bc0e65e3.chunk.js.map",
     "runtime-main.js": "/corex/static/js/runtime-main.b5dbe4a7.js",
     "runtime-main.js.map": "/corex/static/js/runtime-main.b5dbe4a7.js.map",
     "static/css/2.155cf648.chunk.css": "/corex/static/css/2.155cf648.chunk.css",
     "static/js/2.838eb424.chunk.js": "/corex/static/js/2.838eb424.chunk.js",
     "static/js/2.838eb424.chunk.js.map": "/corex/static/js/2.838eb424.chunk.js.map",
     "index.html": "/corex/index.html",
-    "precache-manifest.c85a9165a66e5e7d00f9250228f666ad.js": "/corex/precache-manifest.c85a9165a66e5e7d00f9250228f666ad.js",
+    "precache-manifest.94e1a466d510f17b1c9b5d95de575356.js": "/corex/precache-manifest.94e1a466d510f17b1c9b5d95de575356.js",
     "service-worker.js": "/corex/service-worker.js",
     "static/css/2.155cf648.chunk.css.map": "/corex/static/css/2.155cf648.chunk.css.map",
-    "static/css/main.de5944b1.chunk.css.map": "/corex/static/css/main.de5944b1.chunk.css.map",
+    "static/css/main.5a730067.chunk.css.map": "/corex/static/css/main.5a730067.chunk.css.map",
     "static/js/2.838eb424.chunk.js.LICENSE.txt": "/corex/static/js/2.838eb424.chunk.js.LICENSE.txt",
     "static/media/index.css": "/corex/static/media/open-sans-latin-800italic.c62c3eea.woff2"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b5dbe4a7.js",
     "static/css/2.155cf648.chunk.css",
     "static/js/2.838eb424.chunk.js",
-    "static/css/main.de5944b1.chunk.css",
-    "static/js/main.4e292a25.chunk.js"
+    "static/css/main.5a730067.chunk.css",
+    "static/js/main.bc0e65e3.chunk.js"
   ]
 }
