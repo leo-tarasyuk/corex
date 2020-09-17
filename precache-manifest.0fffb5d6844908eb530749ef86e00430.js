@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b4588f4ea637a87f15d51c3ab53db8c",
+    "revision": "69f5de5d6822616cc615432c5925a00b",
     "url": "/corex/index.html"
   },
   {
-    "revision": "30b9f2d8562f1bf32eb7",
-    "url": "/corex/static/css/2.155cf648.chunk.css"
+    "revision": "18d24776f4100a21e2f9",
+    "url": "/corex/static/css/2.7f40c725.chunk.css"
   },
   {
-    "revision": "7127264d828816648e73",
-    "url": "/corex/static/css/main.5a730067.chunk.css"
+    "revision": "8d6a6e77a69a657c0ba2",
+    "url": "/corex/static/css/main.9bb26373.chunk.css"
   },
   {
-    "revision": "30b9f2d8562f1bf32eb7",
-    "url": "/corex/static/js/2.838eb424.chunk.js"
+    "revision": "18d24776f4100a21e2f9",
+    "url": "/corex/static/js/2.693ccbb8.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/corex/static/js/2.838eb424.chunk.js.LICENSE.txt"
+    "url": "/corex/static/js/2.693ccbb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7127264d828816648e73",
-    "url": "/corex/static/js/main.bc0e65e3.chunk.js"
+    "revision": "8d6a6e77a69a657c0ba2",
+    "url": "/corex/static/js/main.e4c1122a.chunk.js"
   },
   {
     "revision": "350f2b8bbfd0c34d1b29",
