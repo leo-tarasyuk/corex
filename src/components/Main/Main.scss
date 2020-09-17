@@ -6,6 +6,9 @@
   padding: 80px 0px;
   display: flex;
   background: $backgroundColor;
+  @media (max-width: 1024px) {
+    padding: 30px 0px;
+  }
   .sort {
     width: 215px;
     min-width: 215px;
@@ -19,6 +22,9 @@
     height: 100%;
     min-height: 700px;
     padding: 0px 60px;
+    @media (max-width: 1024px) {
+      padding: 0px 14px;
+    }
   }
   .news {
     width: 209px;
@@ -37,5 +43,8 @@
     line-height: 48px;
     color: $colorMain;
     padding: 14px 0px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 }

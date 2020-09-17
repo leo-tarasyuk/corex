@@ -3,7 +3,8 @@ import {
     SET_DATA,
     SET_CHOSEN_PRODUCT,
     SET_STATE_BUTTON,
-    SET_PRICE
+    SET_PRICE,
+    SHOW_SETTING
 } from './index';
 
 const initialStore = Record({
@@ -11,6 +12,7 @@ const initialStore = Record({
     chosenProducts: [],
     isSortTable: null,
     columnSort: '',
+    settingsWindow: false
 })
 
 export default function reducer(state = new initialStore(), action) {
@@ -33,6 +35,10 @@ export default function reducer(state = new initialStore(), action) {
             return state.merge({
                 'isSortTable': payload.isState,
                 'columnSort': payload.column
+            })
+        case SHOW_SETTING:
+            return state.merge({
+                'settingsWindow': payload.settingsWindow,
             })
         default: return state;
     }

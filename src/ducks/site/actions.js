@@ -5,7 +5,9 @@ import {
     SET_DATA,
     SET_CHOSEN_PRODUCT,
     SET_STATE_BUTTON,
-    SET_PRICE
+    SET_PRICE,
+    SHOW_SETTING
+
 } from './index';
 
 export const getDataJSON = () => dispatch => {
@@ -30,7 +32,7 @@ export const countChooseProduct = idProduct => (dispatch, getState) => {
     })
 }
 
-export const setChangeSort = (column) => (dispatch, getState) => {
+export const setChangeSort = column => (dispatch, getState) => {
     const { site: { isSortTable } } = getState();
 
     dispatch({
@@ -39,9 +41,18 @@ export const setChangeSort = (column) => (dispatch, getState) => {
     })
 }
 
-export const setStateButton = (isState, column)=> dispatch => {
+export const setStateButton = (isState, column) => dispatch => {
     dispatch({
         type: SET_PRICE,
         payload: { isState, column },
+    })
+}
+
+export const setStateWindow = () => (dispatch, getState) => {
+    const { site: { settingsWindow } } = getState();
+
+    dispatch({
+        type: SHOW_SETTING,
+        payload: { settingsWindow: !settingsWindow },
     })
 }
