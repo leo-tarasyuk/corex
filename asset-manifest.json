@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/corex/static/css/main.9bb26373.chunk.css",
+    "main.css": "/corex/static/css/main.e60f42ba.chunk.css",
     "main.js": "/corex/static/js/main.e4c1122a.chunk.js",
     "main.js.map": "/corex/static/js/main.e4c1122a.chunk.js.map",
     "runtime-main.js": "/corex/static/js/runtime-main.b5dbe4a7.js",
@@ -9,10 +9,10 @@
     "static/js/2.693ccbb8.chunk.js": "/corex/static/js/2.693ccbb8.chunk.js",
     "static/js/2.693ccbb8.chunk.js.map": "/corex/static/js/2.693ccbb8.chunk.js.map",
     "index.html": "/corex/index.html",
-    "precache-manifest.0fffb5d6844908eb530749ef86e00430.js": "/corex/precache-manifest.0fffb5d6844908eb530749ef86e00430.js",
+    "precache-manifest.cf26bd8e574eb5930ea93a34f433684d.js": "/corex/precache-manifest.cf26bd8e574eb5930ea93a34f433684d.js",
     "service-worker.js": "/corex/service-worker.js",
     "static/css/2.7f40c725.chunk.css.map": "/corex/static/css/2.7f40c725.chunk.css.map",
-    "static/css/main.9bb26373.chunk.css.map": "/corex/static/css/main.9bb26373.chunk.css.map",
+    "static/css/main.e60f42ba.chunk.css.map": "/corex/static/css/main.e60f42ba.chunk.css.map",
     "static/js/2.693ccbb8.chunk.js.LICENSE.txt": "/corex/static/js/2.693ccbb8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/corex/static/media/open-sans-latin-800italic.c62c3eea.woff2"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b5dbe4a7.js",
     "static/css/2.7f40c725.chunk.css",
     "static/js/2.693ccbb8.chunk.js",
-    "static/css/main.9bb26373.chunk.css",
+    "static/css/main.e60f42ba.chunk.css",
     "static/js/main.e4c1122a.chunk.js"
   ]
 }
