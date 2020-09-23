@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/corex/static/css/main.8914c6d2.chunk.css",
-    "main.js": "/corex/static/js/main.1695f62c.chunk.js",
-    "main.js.map": "/corex/static/js/main.1695f62c.chunk.js.map",
+    "main.js": "/corex/static/js/main.5c79dd1c.chunk.js",
+    "main.js.map": "/corex/static/js/main.5c79dd1c.chunk.js.map",
     "runtime-main.js": "/corex/static/js/runtime-main.b5dbe4a7.js",
     "runtime-main.js.map": "/corex/static/js/runtime-main.b5dbe4a7.js.map",
     "static/css/2.7f40c725.chunk.css": "/corex/static/css/2.7f40c725.chunk.css",
     "static/js/2.02b1248c.chunk.js": "/corex/static/js/2.02b1248c.chunk.js",
     "static/js/2.02b1248c.chunk.js.map": "/corex/static/js/2.02b1248c.chunk.js.map",
     "index.html": "/corex/index.html",
-    "precache-manifest.1a60ac2ca93957d902f8d7968b54da92.js": "/corex/precache-manifest.1a60ac2ca93957d902f8d7968b54da92.js",
+    "precache-manifest.e927caaa79bf77a21e399ee286c0a46d.js": "/corex/precache-manifest.e927caaa79bf77a21e399ee286c0a46d.js",
     "service-worker.js": "/corex/service-worker.js",
     "static/css/2.7f40c725.chunk.css.map": "/corex/static/css/2.7f40c725.chunk.css.map",
     "static/css/main.8914c6d2.chunk.css.map": "/corex/static/css/main.8914c6d2.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.7f40c725.chunk.css",
     "static/js/2.02b1248c.chunk.js",
     "static/css/main.8914c6d2.chunk.css",
-    "static/js/main.1695f62c.chunk.js"
+    "static/js/main.5c79dd1c.chunk.js"
   ]
 }
