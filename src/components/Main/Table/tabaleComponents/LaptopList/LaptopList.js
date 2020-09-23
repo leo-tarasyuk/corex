@@ -33,7 +33,7 @@ class LaptopList extends Component {
                         <div className='picture'>
                             {dataList.id && <img src={require(`../../../../../../public/images/${dataList.id}.png`)} alt='' />}
                         </div>
-                        <div className='laptop-price'>{`${dataList.Price.minPrice} - ${dataList.Price.maxPrice}`}</div>
+                        {dataList.Price && <div className='laptop-price'>{`${dataList.Price.minPrice} - ${dataList.Price.maxPrice}`}</div>}
                         <div className='point-lt'></div>
                         <div className='point-rt'></div>
                         <div className='point-lb'></div>
