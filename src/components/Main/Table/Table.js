@@ -39,7 +39,7 @@ class Table extends Component {
                   <div className='star' onClick={() => countChooseProduct(item.id)}>{Pictures.star(isChecked(item.id))}</div>
                 </div>
                 <div className='picture'>
-                  {item.id && <img src={`../../../images/${item.id}.png`} alt='' />}
+                  {item.id && <img src={require(`../../../images/${item.id}.png`)} alt='' />}
                 </div>
                 <div className='laptop-price'>{`${item.Price.minPrice} - ${item.Price.maxPrice}`}</div>
                 <div className='point-lt'></div>
