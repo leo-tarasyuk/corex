@@ -21,25 +21,23 @@ class LaptopList extends Component {
 
         return (
             <>
-                {
-                    dataList && <div className='laptop-table'>
-                        <div className='description'>
-                            <div className='text-description'>
-                                <div>{dataList.name}</div>
-                                <div>{dataList.Hash}</div>
-                            </div>
-                            <div className='star' onClick={() => countChooseProduct(dataList.id)}>{Pictures.star(isChecked(dataList.id))}</div>
+                <div className='laptop-table'>
+                    <div className='description'>
+                        <div className='text-description'>
+                            <div>{dataList.name}</div>
+                            <div>{dataList.Hash}</div>
                         </div>
-                        <div className='picture'>
-                            {dataList.id && <img src={require(`../../../../../../public/images/${dataList.id}.png`)} alt='' />}
-                        </div>
-                        {dataList.Price.minPrice && <div className='laptop-price'>{`${dataList.Price.minPrice} - ${dataList.Price.maxPrice}`}</div>}
-                        <div className='point-lt'></div>
-                        <div className='point-rt'></div>
-                        <div className='point-lb'></div>
-                        <div className='point-rb'></div>
+                        <div className='star' onClick={() => countChooseProduct(dataList.id)}>{Pictures.star(isChecked(dataList.id))}</div>
                     </div>
-                }
+                    <div className='picture'>
+                        <img src={require(`../../../../../../public/images/${dataList.id}.png`)} alt='' />
+                    </div>
+                    <div className='laptop-price'>{`${dataList.Price.minPrice} - ${dataList.Price.maxPrice}`}</div>
+                    <div className='point-lt'></div>
+                    <div className='point-rt'></div>
+                    <div className='point-lb'></div>
+                    <div className='point-rb'></div>
+                </div>
             </>
         )
     }
