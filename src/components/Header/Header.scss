@@ -33,7 +33,8 @@
         .settings {
           .sort {
             width: 215px;
-            height: 215px;
+            height: 145px;
+            background: $backgroundColor;
             position: absolute;
             padding-top: 12px;
           }
