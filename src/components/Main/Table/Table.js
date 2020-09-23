@@ -41,7 +41,7 @@ class Table extends Component {
                 <div className='picture'>
                   {item.id && <img src={require(`../../../images/${item.id}.png`)} alt='' />}
                 </div>
-                <div className='laptop-price'>{`${item.Price.minPrice} - ${item.Price.maxPrice}`}</div>
+                {item.Price && <div className='laptop-price'>{`${item.Price.minPrice} - ${item.Price.maxPrice}`}</div>}
                 <div className='point-lt'></div>
                 <div className='point-rt'></div>
                 <div className='point-lb'></div>
