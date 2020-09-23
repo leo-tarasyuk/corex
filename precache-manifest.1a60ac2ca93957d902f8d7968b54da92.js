@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7af0df610234f357f53ea29c4d23dc8b",
+    "revision": "38f98ae9326ae5c154967bb8d7448c51",
     "url": "/corex/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corex/static/css/2.7f40c725.chunk.css"
   },
   {
-    "revision": "aa09e6c965e4d4996d6f",
+    "revision": "fabe238e7d9c07352109",
     "url": "/corex/static/css/main.8914c6d2.chunk.css"
   },
   {
@@ -20,12 +20,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/corex/static/js/2.02b1248c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa09e6c965e4d4996d6f",
-    "url": "/corex/static/js/main.b3ea629c.chunk.js"
+    "revision": "fabe238e7d9c07352109",
+    "url": "/corex/static/js/main.1695f62c.chunk.js"
   },
   {
     "revision": "350f2b8bbfd0c34d1b29",
     "url": "/corex/static/js/runtime-main.b5dbe4a7.js"
+  },
+  {
+    "revision": "f85bf7d18134e84ed1ad74ba1ae8e9eb",
+    "url": "/corex/static/media/0.f85bf7d1.png"
+  },
+  {
+    "revision": "0f1df6e034d7d442b72121cdec5e6a9c",
+    "url": "/corex/static/media/1.0f1df6e0.png"
+  },
+  {
+    "revision": "f85bf7d18134e84ed1ad74ba1ae8e9eb",
+    "url": "/corex/static/media/2.f85bf7d1.png"
   },
   {
     "revision": "c873ec807aaaab8bccd7f21bfcb065dc",
