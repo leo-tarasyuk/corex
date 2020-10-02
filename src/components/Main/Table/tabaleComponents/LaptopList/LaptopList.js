@@ -30,7 +30,7 @@ class LaptopList extends Component {
                         <div className='star' onClick={() => countChooseProduct(dataList.id)}>{Pictures.star(isChecked(dataList.id))}</div>
                     </div>
                     <div className='picture'>
-                        {dataList.id && <img src={require(`../../../../../images/${dataList.id}.png`)} alt={dataList.name} />}
+                        <img src={require(`../../../../../images/0.png`)} alt={dataList.name} />
                     </div>
                     <div className='laptop-price'>{`${dataList.Price.minPrice} - ${dataList.Price.maxPrice}`}</div>
                     <div className='point-lt'></div>
