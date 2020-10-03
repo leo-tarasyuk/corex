@@ -3,8 +3,10 @@ export function formatDataTable(data) {
 
     const { nameColumn, dataTable } = data.reduce((acc, item) => {
         const { name, ...data } = item;
-        acc.nameColumn.push(name);
         acc.dataTable.push(data);
+        const { id, Hash, Price } = data;
+        acc.nameColumn.push({ name, id, Hash, Price });
+
         return acc;
     }, {
         nameColumn: [],
